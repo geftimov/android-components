@@ -1,6 +1,6 @@
 ## android-components
 
-List of useful components for Android.
+List of useful components for Android.<br/>
 More information for each component wiki.
 
 #### Components
