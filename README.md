@@ -24,7 +24,7 @@ More information for each component wiki.
               populateRelease(myArr);
           }
       }
-      xmlhttp.open("GET", "https://api.github.com/repos/" user + "/" + repo + "/releases", true);
+      xmlhttp.open("GET", "https://api.github.com/repos/geftimov/android-components/releases", true);
       xmlhttp.send();
       
       function populateRelease(arr) {
