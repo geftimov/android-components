@@ -1,8 +1,11 @@
-## android-player
+## android-components
 
 List of useful components for Android.
 More information for each component wiki.
 
+#### Components
+
+ * [NoDefaultSpinner](https://github.com/geftimov/android-components/wiki/NoDefaultSpinner "NoDefaultSpinner") (Spinner with hint default item. When other item selected the default option is removed.)
 
 #### Contributors
 
@@ -10,7 +13,10 @@ More information for each component wiki.
 
 #### Changelog
 
-- June 6th. Add animation loop support.
+###### v0.0.1
+
+ * Added NoDefaultSpinner
+
 
 ##### Download
 
