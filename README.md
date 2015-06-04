@@ -5,6 +5,34 @@
 List of useful components for Android.<br/>
 More information for each component wiki.
 
+<!-- Put the Maven coordinates in your HTML: -->
+ <pre class="prettyprint">&lt;dependency&gt;
+  &lt;groupId&gt;com.github.jitpack&lt;/groupId&gt;
+  &lt;artifactId&gt;android-example&lt;/artifactId&gt;
+  &lt;version&gt;<span id="latest_release">1.0</span>&lt;/version&gt;
+&lt;/dependency&gt;  </pre>
+ 
+<!-- Add this script to update "latest_release" span to latest version -->
+<script>
+      var user = 'geftimov'; // Replace with your user/repo
+      var repo = 'android-components'
+      
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+              var myArr = JSON.parse(xmlhttp.responseText);
+              populateRelease(myArr);
+          }
+      }
+      xmlhttp.open("GET", "https://api.github.com/repos/" user + "/" + repo + "/releases", true);
+      xmlhttp.send();
+      
+      function populateRelease(arr) {
+          var release = arr[0].tag_name;
+          document.getElementById("latest_release").innerHTML = release;
+      }
+</script>
+
 #### Components
 
  * [NoDefaultSpinner](https://github.com/geftimov/android-components/wiki/NoDefaultSpinner "NoDefaultSpinner") (Spinner with hint default item. When other item selected the default option is removed.)
@@ -22,7 +50,7 @@ More information for each component wiki.
 	}
 	
 	dependencies {
-	        compile 'com.github.geftimov:android-components:v0.0.1'
+	        compile 'com.github.geftimov:android-components:<span id="latest_release">v0.0.0</span>'
 	}
 
 
