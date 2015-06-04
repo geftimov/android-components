@@ -11,18 +11,24 @@ More information for each component wiki.
 
 [Georgi Eftimov](https://github.com/geftimov "Georgi Eftimov")
 
+##### Download
+
+	repositories {
+	    maven {
+	        url "https://jitpack.io"
+	    }
+	}
+	
+	dependencies {
+	        compile 'com.github.geftimov:android-components:v0.0.1'
+	}
+
+
 #### Changelog
 
 ###### v0.0.1
 
  * Added NoDefaultSpinner
-
-
-##### Download
-
-	dependencies {
-		compile 'com.eftimoff:androidplayer:1.0.2@aar'
-	}
 
 
 ## Licence
