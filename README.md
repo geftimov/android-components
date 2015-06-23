@@ -35,7 +35,7 @@ More information for each component wiki.
  * Added ViewPagerAdapter
  * Added ViewPagerFragmentAdapter
 
-###### v0.0.1
+###### [v0.0.1](https://github.com/geftimov/android-components/releases/tag/v0.0.1)
 
  * Added NoDefaultSpinner
 
