@@ -8,6 +8,8 @@ More information for each component wiki.
 #### Components
 
  * [NoDefaultSpinner](https://github.com/geftimov/android-components/wiki/NoDefaultSpinner "NoDefaultSpinner") (Spinner with hint default item. When other item selected the default option is removed.)
+ * [ViewPagerAdapter](https://github.com/geftimov/android-components/wiki/ViewPagerAdapter "ViewPagerAdapter") (Adapter for ViewPager but with views , not fragments.)
+ * [ViewPagerFragmentAdapter](https://github.com/geftimov/android-components/wiki/ViewPagerFragmentAdapter "ViewPagerFragmentAdapter") (Adapter for ViewPager with the new fragments (not support library).)
 
 #### Contributors
 
@@ -22,11 +24,16 @@ More information for each component wiki.
 	}
 	
 	dependencies {
-	        compile 'com.github.geftimov:android-components:v0.0.1'
+	        compile 'com.github.geftimov:android-components:v0.0.2'
 	}
 
 
 #### Changelog
+
+###### v0.0.2
+
+ * Added ViewPagerAdapter
+ * Added ViewPagerFragmentAdapter
 
 ###### v0.0.1
 
