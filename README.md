@@ -1,6 +1,6 @@
 ## android-components
 
-[![Release](https://img.shields.io/github/release/geftimov/android-components.svg?label=JitPack)](https://jitpack.io/#geftimov/android-components/v0.0.1)
+[![Release](https://img.shields.io/github/release/geftimov/android-components.svg?label=JitPack)](https://jitpack.io/#geftimov/android-components/v0.0.2)
 
 List of useful components for Android.<br/>
 More information for each component wiki.
