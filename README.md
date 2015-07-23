@@ -10,6 +10,8 @@ More information for each component wiki.
  * [NoDefaultSpinner](https://github.com/geftimov/android-components/wiki/NoDefaultSpinner "NoDefaultSpinner") (Spinner with hint default item. When other item selected the default option is removed.)
  * [ViewPagerAdapter](https://github.com/geftimov/android-components/wiki/ViewPagerAdapter "ViewPagerAdapter") (Adapter for ViewPager but with views , not fragments.)
  * [ViewPagerFragmentAdapter](https://github.com/geftimov/android-components/wiki/ViewPagerFragmentAdapter "ViewPagerFragmentAdapter") (Adapter for ViewPager with the new fragments (not support library).)
+ * [InactivityTimer](https://github.com/geftimov/android-components/wiki/InactivityTimer "InactivityTimer") (Timer that triger the listener after milliseconds of inactivity.)
+
 
 #### Contributors
 
@@ -24,11 +26,15 @@ More information for each component wiki.
 	}
 	
 	dependencies {
-	        compile 'com.github.geftimov:android-components:v0.0.2'
+	        compile 'com.github.geftimov:android-components:v0.0.3'
 	}
 
 
 #### Changelog
+
+###### [v0.0.3](https://github.com/geftimov/android-components/releases/tag/v0.0.3)
+
+ * Added InactivityTimer
 
 ###### [v0.0.2](https://github.com/geftimov/android-components/releases/tag/v0.0.2)
 
