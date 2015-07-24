@@ -19,6 +19,9 @@ More information for each component wiki.
 
 ##### Download
 
+Use jitpack only for testing.<br/>
+Copy the classes you need only.
+
 	repositories {
 	    maven {
 	        url "https://jitpack.io"
